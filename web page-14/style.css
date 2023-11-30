@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Abyssinica+SIL&family=Baloo+Bhaina+2&family=Bree+Serif&family=Dancing+Script&family=DynaPuff&family=Inter:wght@200&family=Kaushan+Script&family=Lemon&family=Maven+Pro&family=Merriweather+Sans&family=Mukta+Mahee:wght@300&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Public+Sans:wght@100&family=Quicksand:wght@300&family=Raleway&family=Roboto:wght@300;400&family=Rowdies:wght@300;400&family=Russo+One&family=Satisfy&family=Secular+One&family=Seymour+One&family=Staatliches&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.container {
+  background-color: #f1f1f1;
+  height: 1215px;
+}
+.split {
+  display: flex;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.left {
+  background-color: #fff;
+  color: #757575;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 8px;
+  width: 33%;
+  padding-bottom: 16px;
+  /* height: 1145px; */
+  /* width: 445px; */
+}
+.left > .row-1 {
+  background-image: url(avatar_hat.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 296.58px;
+  width: 445.33px;
+  position: relative;
+}
+.john {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 16px;
+  font-size: 30px;
+  color: black;
+}
+
+.padding {
+  padding: 0.01em 16px;
+  color: #757575 !important;
+}
+
+.fontsze {
+  font-size: 18px;
+}
+.left p {
+  padding: 15px 0;
+}
+.left i {
+  margin-right: 16px;
+  color: #009688 !important;
+  font-size: 18px !important;
+}
+.grey {
+  /* color: #000 !important; */
+  background-color: #f1f1f1 !important;
+  width: 100%;
+  border-radius: 16px;
+  height: 17px;
+}
+.extra {
+  width: 90%;
+  background-color: #009688;
+  border-radius: 16px;
+}
+.extra2 {
+  width: 80%;
+  background-color: #009688;
+  border-radius: 16px;
+}
+.extra3 {
+  width: 75%;
+  background-color: #009688;
+  border-radius: 16px;
+}
+.extra4 {
+  width: 50%;
+  background-color: #009688;
+  border-radius: 16px;
+}
+.extra5 {
+  width: 100%;
+  background-color: #009688;
+  border-radius: 16px;
+}
+.extra6 {
+  width: 50%;
+  background-color: #009688;
+  border-radius: 16px;
+}
+.extra7 {
+  width: 20%;
+  background-color: #009688;
+  border-radius: 16px;
+}
+.blue {
+  text-align: center;
+  color: white;
+  /* padding: 5px; */
+  border-radius: 16px;
+  font-size: 15px;
+  height: 17px;
+}
+/* /////////////////////////////////////////// */
+
+.right {
+  /* background-color: #fff; */
+  color: #757575 !important;
+
+  margin-left: 8px;
+}
+
+.right > .box-1 {
+  margin-bottom: 16px;
+  background-color: white;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0 16px 16px 16px;
+}
+.bag {
+  font-size: 30px;
+}
+.heading {
+  /* padding: 26px 0 26px 16px; */
+  padding: 26px 0;
+  /* color: #009688 !important; */
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+.heading i {
+  font-size: 30px;
+}
+
+.right i {
+  margin-right: 16px;
+  color: #009688;
+  /* font-size: 18px; */
+}
+
+.box-1 > .row-1 {
+  padding: 0 16px;
+}
+.front {
+  margin: 10px 0;
+  font-size: 18px;
+}
+.jan {
+  font-size: 16px;
+  color: #009688;
+  margin: 10px 0;
+}
+.para {
+  /* ine-height: 1.5; */
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.right > .box-2 {
+  margin-bottom: 16px;
+  background-color: white;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+hr {
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+.height {
+  height: 24px;
+}
+.jan > span {
+  color: white;
+  background-color: #009688;
+  text-align: center;
+  padding: 0 8px;
+  border-radius: 4px;
+  /* font-size: 12px; */
+}
+
+/* ///////////////////////////// */
+.footer {
+  padding: 0px 16px;
+  text-align: center;
+  color: white;
+  background-color: #009688;
+}
+.icons i {
+  cursor: pointer;
+}
+.icons i:hover {
+  color: lightgray;
+}
+.fine {
+  color: white;
+  padding: 16px 0;
+}
